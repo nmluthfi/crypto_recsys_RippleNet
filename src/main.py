@@ -24,14 +24,14 @@ np.random.seed(555)
 # default settings for Crypto
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', type=str, default='crypto', help='which dataset to use')
-parser.add_argument('--dim', type=int, default=32, help='dimension of entity and relation embeddings')
+parser.add_argument('--dim', type=int, default=64, help='dimension of entity and relation embeddings')
 parser.add_argument('--n_hop', type=int, default=2, help='maximum hops')
 parser.add_argument('--kge_weight', type=float, default=1e-3, help='weight of the KGE term')
 parser.add_argument('--l2_weight', type=float, default=1e-5, help='weight of the l2 regularization term')
-parser.add_argument('--lr', type=float, default=1e-2, help='learning rate')
+parser.add_argument('--lr', type=float, default=2e-2, help='learning rate')
 parser.add_argument('--batch_size', type=int, default=128, help='batch size')
 parser.add_argument('--n_epoch', type=int, default=10, help='the number of epochs')
-parser.add_argument('--n_memory', type=int, default=32, help='size of ripple set for each hop')
+parser.add_argument('--n_memory', type=int, default=128, help='size of ripple set for each hop')
 parser.add_argument('--item_update_mode', type=str, default='plus_transform',
                     help='how to update item at the end of each hop')
 parser.add_argument('--using_all_hops', type=bool, default=True,
