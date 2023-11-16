@@ -10,6 +10,8 @@
 
 --dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 128 --n_memory 64
 
+--dim 32 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 64 --n_memory 32
+
 --dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 128 --n_memory 16
 
 --dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 256 --n_memory 32

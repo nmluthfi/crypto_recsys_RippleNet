@@ -1,68 +1,68 @@
 1. First iteration arguments
-"--neighbor_sample_size 8 --dim 32 --batch_size 128 --l2_weight 1e-7 --lr 2e-2 --ratio 1"					
+--dim 64 --n_hop 3 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 128 --n_memory 32
 the result
 total run time		
 seconds	minutes	hours
 3967	66.11666667	1.101944444
 
 2. Second iteration arguments
-"--neighbor_sample_size 8 --dim 64 --batch_size 256 --l2_weight 2e-5 --lr 2e-4 --ratio 1"					
+--dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 128 --n_memory 32					
 the result
 total run time		
 seconds minutes	hours
 NA    NA    NA
 
 3. Third iteration arguments
-"--neighbor_sample_size 8 --dim 16 --batch_size 128 --l2_weight 1e-4 --lr 5e-4 --ratio 1"					
+--dim 64 --n_hop 2 --kge_weight 1e-4 --l2_weight 1e-5 --lr 2e-2 --batch_size 128 --n_memory 32
 the result
 total run time		
 seconds	minutes	hours
 2556	42.6	0.71
 
 4. Fourth iteration arguments
-"--neighbor_sample_size 4 --dim 32 --batch_size 65536 --l2_weight 1e-7 --lr 2e-2 --ratio 1"					
+--dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-6 --lr 2e-2 --batch_size 128 --n_memory 32
 the result
 total run time		
 seconds	minutes	hours
 2671	44.51666667	0.741944444
 
 5. Fifth iteration arguments
-"--neighbor_sample_size 16 --dim 128 --batch_size 512 --l2_weight 5e-5 --lr 1e-4 --ratio 0.8"					
+--dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 64 --n_memory 32
 the result
 total run time		
 seconds	minutes	hours
 NA  NA    NA
 
 6. Sixth iteration arguments
-"--neighbor_sample_size 12 --dim 256 --batch_size 256 --l2_weight 1e-5 --lr 2e-4 --ratio 0.8"					
+--dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 128 --n_memory 64
 the result
 total run time		
 seconds	minutes	hours
 2516	41.93333333	0.698888889
 
 7. Seventh iteration arguments
-"--neighbor_sample_size 20 --dim 64 --batch_size 128 --l2_weight 3e-5 --lr 2e-4 --ratio 0.9"					
+--dim 32 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 64 --n_memory 32
 the result
 total run time		
 seconds	minutes	hours
 NA  NA    NA
 
 8. Eigth iteration arguments
-"--neighbor_sample_size 8 --dim 192 --batch_size 512 --l2_weight 2e-5 --lr 8e-5 --ratio 0.6"					
+--dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 128 --n_memory 16
 the result
 total run time		
 seconds	minutes	hours
 1554	25.9	0.431666667
 
 9. Nineth iteration argumemts
-"--neighbor_sample_size 18 --dim 96 --batch_size 256 --l2_weight 4e-5 --lr 1e-4 --ratio 0.85"					
+--dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 256 --n_memory 32
 the result
 total run time		
 seconds	minutes	hours
 2460	41	0.683333333
 
 10. Ten iteration argumemts
-"--neighbor_sample_size 14 --dim 160 --batch_size 384 --l2_weight 3e-5 --lr 7e-5 --ratio 0.75"					
+--dim 64 --n_hop 2 --kge_weight 1e-3 --l2_weight 1e-5 --lr 2e-2 --batch_size 128 --n_memory 128
 the result
 total run time		
 seconds	minutes	hours
